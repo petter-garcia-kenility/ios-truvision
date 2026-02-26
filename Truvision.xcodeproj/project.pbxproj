@@ -6,8 +6,16 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		732BB5FE2F4F58E400708F0F /* MWDATCamera in Frameworks */ = {isa = PBXBuildFile; productRef = 732BB5FD2F4F58E400708F0F /* MWDATCamera */; };
+		732BB6002F4F58E400708F0F /* MWDATCore in Frameworks */ = {isa = PBXBuildFile; productRef = 732BB5FF2F4F58E400708F0F /* MWDATCore */; };
+		732BB6022F4F58E400708F0F /* MWDATMockDevice in Frameworks */ = {isa = PBXBuildFile; productRef = 732BB6012F4F58E400708F0F /* MWDATMockDevice */; };
+		735BC63D2F50B71500335041 /* .gitignore in Sources */ = {isa = PBXBuildFile; fileRef = 735BC63C2F50B70E00335041 /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		732BB5EE2F4F3E2100708F0F /* Truvision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Truvision.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		735BC63C2F50B70E00335041 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -23,6 +31,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				732BB5FE2F4F58E400708F0F /* MWDATCamera in Frameworks */,
+				732BB6022F4F58E400708F0F /* MWDATMockDevice in Frameworks */,
+				732BB6002F4F58E400708F0F /* MWDATCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,6 +43,7 @@
 		732BB5E52F4F3E2100708F0F = {
 			isa = PBXGroup;
 			children = (
+				735BC63C2F50B70E00335041 /* .gitignore */,
 				732BB5F02F4F3E2100708F0F /* Truvision */,
 				732BB5EF2F4F3E2100708F0F /* Products */,
 			);
@@ -65,6 +77,9 @@
 			);
 			name = Truvision;
 			packageProductDependencies = (
+				732BB5FD2F4F58E400708F0F /* MWDATCamera */,
+				732BB5FF2F4F58E400708F0F /* MWDATCore */,
+				732BB6012F4F58E400708F0F /* MWDATMockDevice */,
 			);
 			productName = Truvision;
 			productReference = 732BB5EE2F4F3E2100708F0F /* Truvision.app */;
@@ -94,6 +109,9 @@
 			);
 			mainGroup = 732BB5E52F4F3E2100708F0F;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				732BB5FC2F4F58E400708F0F /* XCRemoteSwiftPackageReference "meta-wearables-dat-ios" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 732BB5EF2F4F3E2100708F0F /* Products */;
 			projectDirPath = "";
@@ -119,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				735BC63D2F50B71500335041 /* .gitignore in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,8 +270,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44PM653W34;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -263,7 +284,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.truvideo.Truvision;
+				PRODUCT_BUNDLE_IDENTIFIER = com.truvideo.TruvideoSdkDemo.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -282,8 +303,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44PM653W34;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -294,7 +317,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.truvideo.Truvision;
+				PRODUCT_BUNDLE_IDENTIFIER = com.truvideo.TruvideoSdkDemo.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -328,6 +351,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		732BB5FC2F4F58E400708F0F /* XCRemoteSwiftPackageReference "meta-wearables-dat-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/meta-wearables-dat-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		732BB5FD2F4F58E400708F0F /* MWDATCamera */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 732BB5FC2F4F58E400708F0F /* XCRemoteSwiftPackageReference "meta-wearables-dat-ios" */;
+			productName = MWDATCamera;
+		};
+		732BB5FF2F4F58E400708F0F /* MWDATCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 732BB5FC2F4F58E400708F0F /* XCRemoteSwiftPackageReference "meta-wearables-dat-ios" */;
+			productName = MWDATCore;
+		};
+		732BB6012F4F58E400708F0F /* MWDATMockDevice */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 732BB5FC2F4F58E400708F0F /* XCRemoteSwiftPackageReference "meta-wearables-dat-ios" */;
+			productName = MWDATMockDevice;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 732BB5E62F4F3E2100708F0F /* Project object */;
 }
