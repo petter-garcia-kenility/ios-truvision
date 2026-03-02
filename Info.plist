@@ -8,5 +8,44 @@
 	<string>AR|1478732240498443|b6a741403ba34a93ff4959471a58de18</string>
 	<key>TeamID</key>
 	<string>$(DEVELOPMENT_TEAM)</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>truvideosdkdemo</string>
+			</array>
+		</dict>
+	</array>
+	<!-- Begin required section for Device Access Toolkit Apps -->
+	<key>MWDAT</key>
+	<dict>
+		<key>AppLinkURLScheme</key>
+		<string>truvideosdkdemo://</string>
+		<key>MetaAppID</key>
+		<string>1478732240498443</string>
+		<key>ClientToken</key>
+		<string>AR|1478732240498443|b6a741403ba34a93ff4959471a58de18</string>
+		<key>TeamID</key>
+		<string>$(DEVELOPMENT_TEAM)</string>
+	</dict>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>bluetooth-peripheral</string>
+		<string>external-accessory</string>
+	</array>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Needed to connect to Meta AI Glasses</string>
+	<key>UISupportedExternalAccessoryProtocols</key>
+	<array>
+		<string>com.meta.ar.wearable</string>
+	</array>
+	<!-- End required section for Device Access Toolkit Apps -->
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>This app needs access to save photos captured from your glasses.</string>
 </dict>
 </plist>

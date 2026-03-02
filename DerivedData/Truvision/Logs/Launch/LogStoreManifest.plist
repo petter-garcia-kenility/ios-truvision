@@ -5,6 +5,68 @@
 	<key>logFormatVersion</key>
 	<integer>12</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>A47F9ABF-8B41-4EC3-BE38-7C1F179A0CDC</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>D1FB51A8-5663-4FC8-8C39-F5CF1442C825</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>9</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-Truvision-2026.02.27_18-06-33-+0100.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>3</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Truvision project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Truvision</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Truvision</string>
+			<key>timeStartedRecording</key>
+			<real>793904793.89913797</real>
+			<key>timeStoppedRecording</key>
+			<real>793904801.12105501</real>
+			<key>title</key>
+			<string>Run Truvision</string>
+			<key>uniqueIdentifier</key>
+			<string>A47F9ABF-8B41-4EC3-BE38-7C1F179A0CDC</string>
+		</dict>
+	</dict>
 </dict>
 </plist>
